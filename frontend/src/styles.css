@@ -1,0 +1,113 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  font-size: 18px;
+  line-height: 1.58;
+  background: whitesmoke;
+  color: #333;
+}
+
+.header {
+  background-color: #189eff;
+  width: 100vw;
+  height: 10vh;
+}
+
+.header > .list_title {
+  color: white;
+  margin-left: 35px;
+}
+
+.book_list {
+  background-color: white;
+
+  widows: 341px;
+  height: 210px;
+}
+
+.book_list > div {
+  border: 1px solid black;
+  padding: 16px;
+  border: 1px solid transparent;
+}
+
+.book_content{
+  position: relative;
+  padding: 15px;
+}
+
+.actions {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  display: none;
+}
+
+.actions > button {
+  font-size: 14px;
+  padding: 3px 8px;
+  margin: 0 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.book_content:hover > .actions {
+  display: block;
+}
+
+@media only screen and (max-width: 760px) {
+  .actions {
+    display: block;
+  }
+}
+
+.book_content:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 3px;
+}
+
+.book_list > div > a:hover {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.image{
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.title {
+  text-overflow: ellipsis;
+  position: relative;
+  text-align: left;
+  letter-spacing: .1px;
+  width: 100%;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  color: #242424;
+  max-height: 43px;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.author , .rating {
+  padding: 5xp 0 0;
+  color: #777;
+  font-size: 11px;
+  text-align: left;
+  margin: 0;
+}
+
+.price {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: left;
+  padding: 10px 0 0;
+  color: #242424;
+}
+
+
+
