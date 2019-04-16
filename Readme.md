@@ -6,7 +6,8 @@ This is a basic CRUD app using Angular 7 and Java 1.8
 1. Java - 1.8.0
 2. Apache Maven - 3.6.1
 3. MongoDB - 4.0.8
-
+4. npm - 6.4.1
+5. Angular 7.2.13
 
 ## Setting up
 **1. Clone the source code**
