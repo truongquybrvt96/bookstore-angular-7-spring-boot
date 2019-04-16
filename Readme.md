@@ -41,5 +41,5 @@ npm start
 Frontend will run on <http://localhost:4200>
 
 ##4. Notes
-- Make sure the MongoDB server runs on <http://localhost:27017>.
+- Make sure the MongoDB server is running on <http://localhost:27017>.
 
